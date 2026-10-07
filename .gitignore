@@ -1,5 +1,20 @@
-__pycache__/
-*.pyc
+# User data created when you run the app (encrypted vaults + account records)
+data/
+*.enc
+*.tmp
+
+# Old unencrypted demo data files
 vault_demo.json
 users_demo.json
+
+# Python
+__pycache__/
+*.pyc
+
+# Environment and editor files
+.env
+.venv/
+venv/
+.idea/
+.vscode/
 .DS_Store
